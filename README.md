@@ -13,7 +13,8 @@ For the SVG above, you can customize the text, both colors, and the width of eac
 Install
 
 ```bash
-npm install svg-shield --save```
+npm install svg-shield --save
+```
 
 ### API
 
