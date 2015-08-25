@@ -4,13 +4,11 @@ Easy SVG shields (badges) for node with custom text, colors, and widths.
 
 You can generate an SVG shield similar to on [shields.io](http://shields.io).
 
-![Sample Shield](./shield.svg)
+![Sample Shield](./shield.svg?raw=true)
 
 For the SVG above, you can customize the text, both colors, and the width of each size.
 
-## Use
-
-Install
+## Install
 
 ```bash
 npm install svg-shield --save
