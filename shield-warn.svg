@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="20">
+    <mask id="a"><rect width="135" height="20" rx="3" fill="#fff"/></mask>
+    <g mask="url(#a)">
+        <path fill="#111" d="M0 0h75v20H0z"/>
+        <path fill="#C80" d="M75 0h60v20H75z"/>
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="sans-serif" font-size="11">
+        <text x="37.5" y="15" fill="#000">something</text>
+        <text x="105" y="15" fill="#000">warning</text>
+        <text x="37.5" y="14">something</text>
+        <text x="105" y="14">warning</text>
+    </g>
+</svg>
