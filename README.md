@@ -1,12 +1,14 @@
 # svg-shield
 
-Easy SVG shields (badges) for node with custom text, colors, and widths.
+## SVG shields (badges) for node with custom text, colors, and widths.
 
-You can generate an SVG shield similar to on [shields.io](http://shields.io).
+These SVGs show how you can customize the text, both colors, and the width of each side.
 
 ![Sample Shield](https://cdn.rawgit.com/jrit/svg-shield/master/shield.svg)
 
-For the SVG above, you can customize the text, both colors, and the width of each size.
+![Sample Shield](https://cdn.rawgit.com/jrit/svg-shield/master/shield2.svg)
+
+These SVGs are based on those used by [shields.io](http://shields.io).
 
 ## Install
 
