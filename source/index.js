@@ -10,17 +10,11 @@ var shield = {
         <path fill="{{nameBgColor}}" d="M0 0h{{nameWidth}}v20H0z"/>\n\
         <path fill="{{valueBgColor}}" d="M{{nameWidth}} 0h60v20H{{nameWidth}}z"/>\n\
     </g>\n\
-    <g fill="#fff"\n\
-        text-anchor="middle"\n\
-        font-family="sans-serif"\n\
-        font-weight="bold"\n\
-        font-size="11">\n\
-        <text x="{{nameCenter}}" y="14">\n\
-            {{name}}\n\
-        </text>\n\
-        <text x="{{valueCenter}}" y="14">\n\
-            {{value}}\n\
-        </text>\n\
+    <g fill="#fff" text-anchor="middle" font-family="sans-serif" font-size="11">\n\
+        <text x="{{nameCenter}}" y="15" fill="#000">{{name}}</text>\n\
+        <text x="{{valueCenter}}" y="15" fill="#000">{{value}}</text>\n\
+        <text x="{{nameCenter}}" y="14">{{name}}</text>\n\
+        <text x="{{valueCenter}}" y="14">{{value}}</text>\n\
     </g>\n\
 </svg>'
 };

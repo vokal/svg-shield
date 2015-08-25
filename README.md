@@ -6,7 +6,7 @@ These SVGs show how you can customize the text, both colors, and the width of ea
 
 ![Sample Shield](https://cdn.rawgit.com/jrit/svg-shield/master/shield.svg)
 
-![Sample Shield](https://rawgit.com/jrit/svg-shield/master/shield2.svg)
+![Sample Shield](https://cdn.rawgit.com/jrit/svg-shield/master/shield2.svg)
 
 These SVGs are based on those used by [shields.io](http://shields.io).
 
