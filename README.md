@@ -47,6 +47,12 @@ The text on the left side of the shield
 #### `value` default _""_
 The text on the right side of the shield
 
+#### `fontFamily` default _"sans-serif"_
+The font that should be used for badge text
+
+#### `fontSize` default _11_
+The size of the badge text; values above 17 will be reset to 17 max
+
 ## License
 
 MIT

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="135" height="20">
-    <mask id="a"><rect width="135" height="20" rx="3" fill="#fff"/></mask>
+    <mask id="a"><rect width="135" height="20" rx="5" ry="5" fill="#fff"/></mask>
     <g mask="url(#a)">
         <path fill="#111" d="M0 0h75v20H0z"/>
         <path fill="#C80" d="M75 0h60v20H75z"/>
