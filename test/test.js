@@ -82,11 +82,11 @@ describe( "svg-shield", function ()
         {
             assert.equal( err, null );
             assert.equal( res,
-            '<svg xmlns="http://www.w3.org/2000/svg" width="230" height="20">\n\
-    <mask id="a"><rect width="230" height="20" rx="5" ry="5" fill="#fff"/></mask>\n\
+            '<svg xmlns="http://www.w3.org/2000/svg" width="150" height="20">\n\
+    <mask id="a"><rect width="150" height="20" rx="5" ry="5" fill="#fff"/></mask>\n\
     <g mask="url(#a)">\n\
-        <path fill="#333" d="M0 0h150v20H0z"/>\n\
-        <path fill="#000" d="M150 0h60v20H150z"/>\n\
+        <path fill="#333" d="M0 0h100v20H0z"/>\n\
+        <path fill="#000" d="M100 0h60v20H100z"/>\n\
     </g>\n\
     <g fill="#fff" text-anchor="middle" font-family="Verdana, sans-serif" font-size="17">\n\
         <text x="50" y="15" fill="#000">name</text>\n\
