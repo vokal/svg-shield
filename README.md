@@ -51,7 +51,11 @@ The text on the right side of the shield
 The font that should be used for badge text
 
 #### `fontSize` default _11_
-The size of the badge text; values above 17 will be reset to 17 max
+The size of the badge text; min: 8, max: 17
+
+#### `radius` default _5_
+The size of the chamfer of the badge; min: 0, max: 10
+
 
 ## License
 
