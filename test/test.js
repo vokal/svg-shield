@@ -18,7 +18,7 @@ describe( "svg-shield", function ()
         <path fill="#555" d="M0 0h90v20H0z"/>\n\
         <path fill="#4b1" d="M90 0h60v20H90z"/>\n\
     </g>\n\
-    <g fill="#fff" text-anchor="middle" font-family="Verdana, sans-serif" font-size="12">\n\
+    <g fill="#fff" text-anchor="middle" font-family="sans-serif" font-size="11">\n\
         <text x="45" y="15" fill="#000"></text>\n\
         <text x="110" y="15" fill="#000"></text>\n\
         <text x="45" y="14"></text>\n\
@@ -37,6 +37,8 @@ describe( "svg-shield", function ()
             nameWidth: 100,
             valueBgColor: "#000",
             nameBgColor: "#333",
+            fontFamily: "Verdana, sans-serif",
+            fontSize: 12,
             name: "name",
             value: "value"
         };
