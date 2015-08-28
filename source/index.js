@@ -28,13 +28,17 @@ shield.getShield = function ( options, callback )
         nameWidth: 90,
         valueBgColor: "#4b1",
         nameBgColor: "#555",
-        fontFamily: "sans-serif",
-        fontSize: 11,
         name: "",
-        value: ""
+        value: "",
+        fontFamily: "sans-serif",
+        fontSize: 11
     };
 
     var config = xtend( {}, defaults, options );
+
+    if ( config.fontSize > 17 ) {
+        config.fontSize = 17;
+    }
 
     config.nameCenter = config.nameWidth / 2;
     config.valueCenter = config.nameWidth + config.valueWidth / 2;
