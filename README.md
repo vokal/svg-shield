@@ -36,10 +36,10 @@ The width of the left side of the shield
 The width of the right side of the shield
 
 #### `nameBgColor` default _"#555"_
-The background color of the right side of the shield, this is commonly a neutral color, like gray.
+The background color of the right side of the shield, commonly a neutral color, like gray
 
 #### `valueBgColor` default _"#4b1"_
-The background color of the right side of the shield, this is commonly an indicator color, like red or green.
+The background color of the right side of the shield, commonly an indicator color, like red or green
 
 #### `name` default _""_
 The text on the left side of the shield
@@ -51,10 +51,10 @@ The text on the right side of the shield
 The font that should be used for badge text
 
 #### `fontSize` default _11_
-The size of the badge text; min: 8, max: 17
+The size of the badge text, values are bounded to min: 8, max: 17
 
 #### `radius` default _5_
-The size of the chamfer of the badge; min: 0, max: 10
+The size of the chamfer of the badge, values are bounded to min: 0, max: 10
 
 
 ## License
